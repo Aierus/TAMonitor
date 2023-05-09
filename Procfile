@@ -1,1 +1,2 @@
-web: gunicorn 'TAMonitor.wsgi:TAMonitor'
+web: gunicorn --chdir ./TAMonitor TAMonitor.wsgi
+
