@@ -1,1 +1,1 @@
-web: gunicorn 'TAMonitor.wsgi'
+web: gunicorn 'TAMonitor.wsgi:TAMonitor'
